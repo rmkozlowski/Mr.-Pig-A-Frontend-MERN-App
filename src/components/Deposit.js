@@ -6,7 +6,7 @@ import "./styles/Card.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-const baseUrl = "https://mrpigbankers.onrender.com/api";
+const baseUrl = "https://mrpigbankers-api.onrender.com/api";
 
 
 export function Deposit({loggedInUser, updateUser, updateUserBalance}) {
