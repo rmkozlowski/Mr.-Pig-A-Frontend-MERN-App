@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card, Button, Form } from "react-bootstrap";
 
-const baseUrl = "https://mrpigbankers.onrender.com/api";
+const baseUrl = "https://mrpigbankers.onrender.com";
 
 export function Transfer({loggedInUser, setLoggedInUser, updateUser, updateUserBalance}) {
   const [amount, setAmount] = useState("");
