@@ -1,0 +1,22 @@
+.table {
+    width: 100%;
+  }
+  
+  .table thead th {
+    background: "black";
+    border-color: "black";
+    color: black;
+    letter-spacing: 0.1em;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+  
+  /* odd rows */
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #FFF5EE;
+  }
+  
+  /* even rows */
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color: #BC8F8F;
+  }

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-color: pink;
+      width: 100%;
+      height: 100%;
+  }
+  
+  code {
+    font-family:'Courier New',
+      monospace, 'Josefin Sans', sans-serif;
+  }

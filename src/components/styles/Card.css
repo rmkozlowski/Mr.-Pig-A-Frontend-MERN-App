@@ -1,0 +1,70 @@
+/* bootstrap Card  */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    width: 62%;
+    align-self: center;
+    height: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 20px 10px  rgba(75, 81, 85, 0.3);
+  }
+  
+  .card-wide {
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    width: 100%;
+    align-self: center;
+    height: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 20px 10px  rgba(75, 81, 85, 0.3);
+  }
+  
+  .card-small {
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    width: 100%;
+    align-self: center;
+    height: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 20px 10px  rgba(75, 81, 85, 0.3);
+  }
+  
+  .card-title {
+    font-size: 2.5vh;
+    color: black;
+    letter-spacing: 0.1em;
+  }
+  
+  p {
+    font-size: 2.3vh;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+  }
+  
+  .btn {
+    background-color: #4e6879;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Avenir", sans-serif;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .btn:disabled {
+    background-color: #dadeda;
+    color: #4e6879;
+    cursor: not-allowed;
+  }
+
+  
