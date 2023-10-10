@@ -4,7 +4,7 @@ import { Card, Table } from 'react-bootstrap';
 import './styles/Card.css';
 import './styles/Table.css';
 
-const baseUrl = "https://mrpigbankers.onrender.com/api";
+const baseUrl = "https://mrpigbankers-api.onrender.com/api";
 
 export function AllData() {
   const [users, setUsers] = useState([]);
